@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
 
     fun printRandomNumber(): Int {
 
-        val randomValues = Random.nextInt(1, 6)
+        val randomValues = Random.nextInt(1, 7)
         printRandomNumberView.text = randomValues.toString()
         return randomValues
     }
